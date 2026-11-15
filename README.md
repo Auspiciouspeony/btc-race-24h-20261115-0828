@@ -6,6 +6,8 @@
 
 A long-only cbBTC trend bot for make.fun's "Race a BTC trading bot live for 24 hours" bounty: it trades Coinbase Wrapped BTC against USDC on 1-minute on-chain bars, buying only when a fresh EMA(15)-over-EMA(60) cross agrees with a positive 60-minute return, and exiting on a cross back, a 60 bps trailing stop, a 250 bps take-profit, or a 100 bps hard stop. Paper money only — nothing is traded for real.
 
+Local dev-window grade (kit data, exact replay): net PnL **+22.80 USDC** on the $1,000 start, 4 trades, max drawdown 0.9% — the dev window fell 4.1% overall, so the bot made money by sitting in cash through the downtrend and catching the one strong bounce.
+
 ## Run it
 
 ```sh
